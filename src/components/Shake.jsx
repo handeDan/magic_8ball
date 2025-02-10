@@ -14,26 +14,25 @@ function Shake({ handleClick }) {
     <div>
       <form
         onSubmit={handleSubmit}
-        className="flex justify-center items-center flex-col mt-10"
+        className="flex justify-center items-center flex-col mt-8"
       >
         <input
           type="text"
-          placeholder="Type your question here"
+          placeholder="type your question here.."
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
-          className="border rounded-xl border-black px-3 py-2"
+          className="border rounded-xl border-black px-3 py-2 w-80"
         />
-        <br />
         <button
           type="submit"
           onClick={handleClick}
-          className="border rounded-xl border-black px-3 py-2 bg-indigo-800 text-white"
+          className="border mt-4 rounded-xl border-black px-3 py-2 bg-indigo-800 text-white"
         >
           Shake it!
         </button>
         <div>
           {submitQuestion && (
-            <div className="mt-4 p-2 border rounded-md bg-gray-200">
+            <div className="mt-4 p-2 border rounded-sm bg-gray-200">
               <strong>Your Question:</strong> {submitQuestion}
             </div>
           )}

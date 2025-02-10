@@ -13,7 +13,7 @@ function App() {
     // Animasyonu başlat
     setIsShaking(true);
     // Animasyon tamamlandıktan sonra durdur
-    setTimeout(() => setIsShaking(false), 1500); // animasyon süresi 500ms
+    setTimeout(() => setIsShaking(false), 1000); // animasyon süresi 500ms
   };
 
   return (
