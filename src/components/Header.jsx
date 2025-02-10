@@ -10,9 +10,9 @@ function Header() {
         </p>
       </Link>
 
-      <a href="/usage" className="hover:text-indigo-800 hover:font-bold">
+      <Link to="/usage" className="hover:text-indigo-800 hover:font-bold">
         usage
-      </a>
+      </Link>
     </div>
   );
 }
