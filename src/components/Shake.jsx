@@ -21,13 +21,13 @@ function Shake({ handleClick }) {
           placeholder="Type your question here"
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
-          className="border rounded-md border-black px-3 py-2"
+          className="border rounded-xl border-black px-3 py-2"
         />
         <br />
         <button
           type="submit"
           onClick={handleClick}
-          className="border rounded-md border-black px-3 py-2"
+          className="border rounded-xl border-black px-3 py-2 bg-indigo-800 text-white"
         >
           Shake it!
         </button>
