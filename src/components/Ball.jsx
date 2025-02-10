@@ -1,14 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-function Ball() {
-  const [isShaking, setIsShaking] = useState(false);
-  const handleClick = () => {
-    // Animasyonu başlat
-    setIsShaking(true);
-    // Animasyon tamamlandıktan sonra durdur
-    setTimeout(() => setIsShaking(false), 1500); // animasyon süresi 500ms
-  };
-
+function Ball({ handleClick, isShaking }) {
   return (
     <div className="flex justify-center items-center mt-20">
       <div
