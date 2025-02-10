@@ -2,8 +2,8 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
-      <h2 className="flex text-red-500">MAGIC 8BALL</h2>
+    <div className="flex justify-between items-center p-4 bg-gray-800 text-white">
+      <p className="text-xl">MAGIC 8BALL</p>
       <a href="">usage</a>
     </div>
   );
