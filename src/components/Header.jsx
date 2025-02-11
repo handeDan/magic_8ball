@@ -6,7 +6,7 @@ function Header() {
     <div className="flex justify-between items-center p-4 bg-white">
       <Link to="/">
         <p className="text-xl font-semibold hover:text-indigo-800 hover:font-bold">
-          MAGIC 8BALL
+          MAGIC 8-BALL
         </p>
       </Link>
 
